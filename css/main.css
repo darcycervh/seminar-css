@@ -21,6 +21,7 @@ body{
 li{
     display: inline-block;
     list-style-type: none;
+
 }
 li a{
     text-decoration: none;
@@ -44,7 +45,35 @@ div{
     display: inline-block;
     width: 33%;
 }
-footer{
-    background: #303030;
+
+span{
+    font-size: 60px;
+}
+/*body section:last-child{
+    background-color: aqua;
+}*/
+.last-section{
+    /*background-color: aqua;*/
+    margin: 30px 50px 0px 50px;
+}
+img[alt="Laboratoria"]{
+    width: 150px;
+}
+button{
+    background: #f6a831;
     color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+.box-header ul li {
+    margin: 0px 15px;  
+}
+span:hover{
+    color: #f6a831;
+}
+.box-header:hover ul li{
+    color: #f6a831;
 }
