@@ -42,6 +42,9 @@ section{
 }
 div{
     display: inline-block;
-    width: 35%;
-
+    width: 33%;
+}
+footer{
+    background: #303030;
+    color: #fff;
 }
